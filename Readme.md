@@ -14,18 +14,16 @@ Add the gem to the Gemfile:
 
 ## Usage
 
-In your JavaScript manifest (e.g. `application.js`):
+Whichever model you want to filter the html add this
 
-    //= require tinycon
+Eg
 
+  class User < ActiveRecord::Base
 
-In your `application.html.erb` or `application.html.haml` make sure you have
+    acts_as_html_stripper
 
-    favicon_link_tag 'favicon.ico'
-    
-And after all `favicon.ico` in your `app/assets/images` :smile:
+  end
 
-## Licensing
 
 
 The gem itself is released under the MIT license
