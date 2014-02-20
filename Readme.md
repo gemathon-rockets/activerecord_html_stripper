@@ -18,11 +18,11 @@ Whichever model you want to filter the html add this
 
 Eg
 
-  class User < ActiveRecord::Base
+	class User < ActiveRecord::Base
 
-    acts_as_html_stripper
+      acts_as_html_stripper
 
-  end
+  	end
 
 
 
