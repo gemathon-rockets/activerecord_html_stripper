@@ -7,11 +7,12 @@ require "activerecord_html_stripper/version"
 Gem::Specification.new do |s|
   s.name        = "activerecord_html_stripper"
   s.version     = ActiverecordHtmlStripper::VERSION
-  s.authors     = ["Ankit Gupta"]
-  s.email       = ["ankit.gupta8898@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "Strip out all the HTML from Activerecord."
-  s.description = "Strip out all the HTML from Activerecord."
+  s.authors     = ["Ankit Gupta","Ekta Verma"]
+  s.date        = '2014-02-20'
+  s.email       = ["ankit.gupta8898@gmail.com","eku4evr@gmail.com"]
+  s.homepage    = "https://github.com/ankit8898/activerecord_html_stripper"
+  s.summary     = "Strip out all the HTML tags from Activerecord objects."
+  s.description = "Strip out all the HTML tags from Activerecord objects."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
