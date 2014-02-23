@@ -25,6 +25,15 @@ Eg
   	end
 
 
+By default it will strip out all the html, but if you feel like keeping few html tags you can allow, eg
+
+	class User < ActiveRecord::Base
+
+      acts_as_html_stripper allow: ['a','p']
+
+  	end
+
+**Note:** Make sure the allow is a array of tags with lowercase.
 
 The gem itself is released under the MIT license
 
